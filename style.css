@@ -70,6 +70,7 @@ header nav a{
 	text-align: center;
 	
 	/*Flexbox*/
+	display: flex;
 	flex-grow: 1;
 
 }
@@ -83,6 +84,8 @@ header nav a:hover{
 	padding: 20px;
 
 	/*Flexbox*/
+	display: flex;
+	flex-direction: column;
 	flex: 1 1 70%;
 	/*flex-grow: 1;
 	flex-shrink: 1;
